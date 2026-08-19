@@ -1,11 +1,11 @@
-package dev.java10x.CadastroDeNinjas;
+package dev.java10x.CadastroDeNinjas.Ninjas;
 
 import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasVindas")
     @PostMapping
