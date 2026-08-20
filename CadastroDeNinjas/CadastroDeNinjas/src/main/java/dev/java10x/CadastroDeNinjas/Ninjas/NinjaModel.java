@@ -22,6 +22,7 @@ public class NinjaModel {
 
     private String nome;
 
+    @Column(unique = true) // dados que são unicos
     private String email;
 
     private int idade;
