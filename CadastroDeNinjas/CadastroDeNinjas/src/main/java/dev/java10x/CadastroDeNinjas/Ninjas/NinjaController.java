@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping
+@RequestMapping("/nincas")
 public class NinjaController {
 
     @GetMapping("/boasVindas")
@@ -20,13 +20,13 @@ public class NinjaController {
 
 
     // mostrar todos os ninjas (read)
-    @GetMapping("/todos")
+    @GetMapping("/listar")
     public String mostrarTodosOsNinjas(){
         return "Mostrar todos os Ninjas";
     }
 
         // mostrar ninja por ID (read)
-    @GetMapping("/todosID")
+    @GetMapping("/listarID")
     public String mostrarNinjasID(){
         return "Mostrar Ninja por ID";
     }
