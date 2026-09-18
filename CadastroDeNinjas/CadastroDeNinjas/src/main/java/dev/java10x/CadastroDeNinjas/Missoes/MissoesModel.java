@@ -28,3 +28,4 @@ public class MissoesModel {
     private List<NinjaModel> ninja;
 
 }
+
